@@ -268,6 +268,15 @@ display:inline
 display:none;
 }
 
+
+@media only screen and (max-width: 600px) {
+	.accion{
+
+	width:100%;
+	display:block;
+	}
+}
+
 @media only screen and (max-width: 1280px){
 
 	.desplegable {
@@ -305,8 +314,6 @@ display:none;
 	}
 
 	.accion{
-	width:100%;
-	display:block;
 	max-height:350px;
 	min-height:350px;
 	vertical-align:middle;
